@@ -1,4 +1,5 @@
-# load up the data
+# load up the data.  this assumes the file has already been downloaded into
+# the current working directory.
 powerData <- read.table("household_power_consumption.txt", sep=";", header=TRUE, na.strings="?")
 
 # just get the dates we care about
